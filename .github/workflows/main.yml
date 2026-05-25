@@ -13,10 +13,6 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v4
 
-    - name: Decode Keystore
-      # ဒီအဆင့်က base64 ဖိုင်ကို မူလ keystore ဖိုင်ဖြစ်အောင် ပြန်ပြောင်းပေးတာပါ
-      run: base64 -d debug.keystore.base64 > debug.keystore
-
     - name: Set up JDK 17
       uses: actions/setup-java@v4
       with:
