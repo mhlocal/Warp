@@ -1,0 +1,6 @@
+{
+  "name": "MHVPN",
+  "description": "A 7-day trial VPN application utilizing the WireGuard protocol.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
